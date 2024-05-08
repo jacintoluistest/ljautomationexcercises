@@ -2,7 +2,9 @@
 <suite name="Component Tests" verbose="2" annotations="JDK">
     <test name="TestLogin" preserve-order="true" >
         <classes>
-            <class name="selenium.TestLogin" />
+            <!--class name="selenium.TestLogin" /-->
+            <class name="cucumber.CucumberTestRunner"/>
+            <!--class name="cucumber.StepDefinitions"/-->
         </classes>
     </test>
 
