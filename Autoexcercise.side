@@ -1,0 +1,157 @@
+{
+  "id": "75afc016-fb57-477f-b2d3-da1aea6ca11e",
+  "version": "2.0",
+  "name": "Autoexcercise",
+  "url": "https://automationexercise.com",
+  "tests": [{
+    "id": "f3286ee3-6510-4d58-a570-304c1d5ccfe7",
+    "name": "Login",
+    "commands": [{
+      "id": "14ddac0b-9258-484b-8058-426e0992d8a9",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98c75474-0042-4dec-854d-af989d3a978a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1322x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42cc3a3a-e6cd-4b0d-8d2d-18d7522abad5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Website for automation practice']", "xpath:img"],
+        ["xpath=//header[@id='header']/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4dc9265-1e50-4853-ad87-c39d52eab93d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Website for automation practice']", "xpath:img"],
+        ["xpath=//header[@id='header']/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50f041e9-8da4-466c-85c4-b44ec8c20aaa",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.login-form input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//section[@id='form']/div/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0b8fa70-c430-4f29-81a6-f5a65a75fcb5",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.login-form input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//section[@id='form']/div/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "e597887f-fdc3-463e-9ef0-b2df657c4f70",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.login-form input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//section[@id='form']/div/div/div/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "858e69e2-b1f3-417f-9000-41b1cf412113",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='form']/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8f6ced8-65d0-41d6-ae0e-666c0178be1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form p",
+      "targets": [
+        ["css=.login-form p", "css:finder"],
+        ["xpath=//section[@id='form']/div/div/div/div/form/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your email or password is incorrect!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59a9bc32-3d7f-4216-88ce-f7f7dae2f49d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form p",
+      "targets": [
+        ["css=.login-form p", "css:finder"],
+        ["xpath=//section[@id='form']/div/div/div/div/form/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your email or password is incorrect!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0fde2a2-d758-4445-a1be-7146ad13122b",
+      "comment": "",
+      "command": "click",
+      "target": "id=aswift_3_host",
+      "targets": [
+        ["id=aswift_3_host", "id"],
+        ["css=#aswift_3_host", "css:finder"],
+        ["xpath=//div[@id='aswift_3_host']", "xpath:attributes"],
+        ["xpath=//ins[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e29b275-3c12-4af0-96f9-97f7ec86e802",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "626188a3-9f99-4b13-ab06-fa0a458e6ce3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f3286ee3-6510-4d58-a570-304c1d5ccfe7"]
+  }],
+  "urls": ["https://automationexercise.com/"],
+  "plugins": []
+}
